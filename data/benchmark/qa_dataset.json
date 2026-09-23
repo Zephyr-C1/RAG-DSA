@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is the nominal frequency and allowable operating ranges during normal operation versus disturbances in Cyprus?",
+    "ground_truth": "According to KM Version 1.1.0 Section T1.8.2.1, nominal frequency is 50 Hz. Normal operating range is 49.8 Hz to 50.2 Hz, while disturbance range is 47.0 Hz to 52.0 Hz."
+  },
+  {
+    "question": "What is the maximum allowable RoCoF that generating units must withstand without disconnecting?",
+    "ground_truth": "Under Section T1.7.3.1.1(d), units must remain synchronized for RoCoF up to 1.0 Hz/s measured over a 500 ms rolling time window."
+  },
+  {
+    "question": "What primary protection fault clearing times are mandated for 132kV and 220kV transmission circuits?",
+    "ground_truth": "Section T1.10.1 defines the maximum primary protection clearing time as 120 ms for 132 kV and 220 kV systems. Clearing times for 66 kV are determined by stability studies."
+  },
+  {
+    "question": "What are the components of the Operating Margin under Cyprus Grid Code Chapter T5?",
+    "ground_truth": "According to Section T5.3.4.1.5, the Operating Margin consists of: (i) Operating Reserve (FFR, FCR, FRR), (ii) Replacement Reserve (RR), and (iii) Contingency Reserve (CR)."
+  },
+  {
+    "question": "What is the time limit for Black Start Units to energize or synchronize to the network following TSOC instructions?",
+    "ground_truth": "Section T5.5.1.1 mandates that Black Start Units must start from shutdown and energize a section of the transmission system or synchronize to it within 45 minutes following an instruction."
+  }
+]

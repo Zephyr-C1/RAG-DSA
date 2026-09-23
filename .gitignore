@@ -1,0 +1,19 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# 向量索引与大体积二进制文件（避免超过 GitHub 100MB 限制）
+data/index/*.bin
+data/processed/*.json
+
+# 虚拟环境与日志
+.env
+venv/
+*.log
+
+# 编辑器配置
+.vscode/
+.idea/
+.ipynb_checkpoints/
